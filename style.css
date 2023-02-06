@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+a {
+    text-decoration: none;
+    color: #141414;
+}
+
+
+:root {
+    font-size: 62.rem;
+    box-sizing: border-box;
+}
+
+header {
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 12px;
+
+}
+
+.container-logo img {
+    width: 4.8rem;
+    height: auto;
+    border-radius: 50%;
+}
+
+
+#container-icons{
+    margin-right: 0.8rem ;
+}
+
+#container-icons i{
+    font-size: 1.6rem;
+}
